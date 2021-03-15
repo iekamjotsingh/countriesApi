@@ -1,0 +1,38 @@
+.linkSingleCountry{
+    flex-basis: 22%;
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+.singleCountry{
+    margin: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.textarea{
+    padding:10px 30px;
+}
+.singleCountry h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.singleCountry img{
+    height: 250px;
+    width: 100%;
+}
+@media screen and (max-width:1200px){
+    .singleCountry img{
+        min-height: 100px;
+        height: auto;
+    }
+}
+@media screen and (max-width:900px){
+    .linkSingleCountry{
+        flex-basis: 45%;
+    }
+}
+@media screen and (max-width:500px){
+    .linkSingleCountry{
+        flex-basis: 95%;
+    }
+}
